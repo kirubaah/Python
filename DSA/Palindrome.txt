@@ -1,8 +1,0 @@
-def is_palindrome(sequence):
-    return sequence == sequence[::-1]
-
-n = int(input("N: "))
-lst = list(map(int, input("Input (seperated by space): ").split()))
-
-result = is_palindrome(lst)
-print("Output:", result)
